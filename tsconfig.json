@@ -4,9 +4,11 @@
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "paths": {
-      "demo": [
-        "dist/demo/demo",
-        "dist/demo"
+      "regular-lib": [
+        "projects/regular-lib/src/public-api.ts"
+      ],
+      "shared-lib": [
+        "projects/shared-lib/src/public-api.ts"
       ]
     },
     "forceConsistentCasingInFileNames": true,
